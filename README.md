@@ -49,8 +49,8 @@ COLLATE=utf8mb4_bin
 
 | Physical column name    | Description                                         | 
 |-------------------------|-----------------------------------------------------| 
-| `fm_id`                 | Application ID                                      | 
-| `log_fm_id`             | Record ID                                           | 
+| `fm_id`                 | Record ID                                           | 
+| `log_fm_id`             | Temp field(for migration)                           |
 |                         |                                                     | 
 | `lang_dtct_inq_data`    | Inquiry word for language detection                 | 
 | `lang_dtct_req_url`     | Language detection URL                              | 
