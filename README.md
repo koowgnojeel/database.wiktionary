@@ -1,8 +1,10 @@
 ## Wiktionary data for MariaDB
 
+
 ### Count of data
 
 322,945
+
 
 ### Data Definition Language(DDL)
 
@@ -42,9 +44,9 @@ COLLATE=utf8mb4_bin
 ;
 ```
 
+
 ### Physical/logical column mappings
 
-|-------------------------|-----------------------------------------------------| 
 | Physical column name    | Description                                         | 
 |-------------------------|-----------------------------------------------------| 
 | `fm_id`                 | Application ID                                      | 
@@ -71,7 +73,7 @@ COLLATE=utf8mb4_bin
 | `naver2_resp`           | Naver Korean dictionary inquiry result(2)           | 
 | `wik_start_utc_dt`      | The whole process beginning timestamp in UTC        | 
 | `wik_end_utc_dt`        | The whole process end timestamp in UTC              | 
-|-------------------------|-----------------------------------------------------| 
+
 
 ### Sample data
 
@@ -136,6 +138,7 @@ naver2_resp            :
 wik_start_utc_dt       : 2023-02-26T14:34:42,206529+0000
 wik_end_utc_dt         : 2023-02-26T14:34:42,936020+0000
 ```
+
 
 ### Load script
 
