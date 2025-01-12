@@ -155,3 +155,4 @@ $ cat wiktionary.sql.tgz.* | tar -xzvf -
 $ mysql -u USER -pPASSWORD DATABASE < wiktionary.sql;
 ```
 
+
